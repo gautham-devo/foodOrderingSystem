@@ -1,153 +1,212 @@
 <img width="1536" height="1024" alt="ChatGPT Image Jun 5, 2026, 02_45_45 PM" src="https://github.com/user-attachments/assets/139ca174-2d9e-48b9-9e59-d44b23185ff7" />
-# 🍽️ Smart Canteen Management System
 
-A full-stack smart canteen solution that enables students to pre-order food through a mobile application and allows canteen owners to manage inventory, orders, and menu availability through a dynamic admin dashboard.
+ # 🍽️ Smart Canteen Management System
+
+### A Full-Stack Smart Food Ordering & Inventory Management Solution
 
 ---
 
 ## 📌 Overview
 
-The Smart Canteen Management System reduces waiting time in cafeterias by allowing students to place orders before reaching the canteen.
+The **Smart Canteen Management System** is a modern food ordering platform designed to streamline canteen operations and eliminate long waiting queues.
 
-Once an order is placed, the application generates a unique QR code. The customer simply shows this QR code at the canteen counter, where staff can instantly view the order details and mark the order as completed.
+Students can browse available food items, place orders directly from a mobile application, and receive a unique QR code for quick order collection. Meanwhile, canteen owners can manage inventory, monitor orders, and update menu availability through a powerful real-time admin dashboard.
 
-The system also includes a real-time admin dashboard for canteen owners to manage menu items, update stock levels, monitor inventory, and track orders.
+This system creates a seamless experience for both customers and canteen staff while ensuring accurate inventory tracking and faster service.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 📱 Customer Mobile App
+### 📱 Customer Mobile Application
 
-- Secure student login
-- Browse available food items
-- View item availability in real-time
-- Add items to cart
-- Place orders before reaching the canteen
-- Automatic QR code generation after order confirmation
-- Fast order pickup using QR verification
-- Dynamic menu updates based on inventory
+* Secure student authentication
+* Browse available food items
+* Real-time menu availability
+* Add items to cart
+* Place orders remotely
+* Instant QR code generation
+* Quick order pickup using QR verification
+* Dynamic menu updates based on stock availability
 
 ### 🏪 Canteen Owner Dashboard
 
-- Manage menu items
-- Add or remove stock
-- Enable/disable food items
-- Real-time inventory management
-- Low stock alerts
-- Automatic sold-out status updates
-- View incoming orders
-- Verify customer QR codes
-- Complete customer orders
-- Sales and operational analytics
+* Manage menu items
+* Add, edit, or remove products
+* Update inventory levels
+* Enable or disable food items
+* Monitor incoming orders
+* Verify customer QR codes
+* Mark orders as completed
+* Track operational activities
+
+### 📦 Real-Time Inventory Management
+
+* Live inventory synchronization
+* Automatic stock updates
+* Low-stock alerts
+* Sold-out item detection
+* Instant menu refresh across all devices
+* Prevention of over-ordering
+
+### 🔄 Order Management System
+
+* Real-time order tracking
+* QR-based order verification
+* Fast customer pickup process
+* Order status management
+* Completed order tracking
+
+### 🚀 Performance & Scalability
+
+* Lightweight architecture
+* Fast Firebase synchronization
+* Real-time database updates
+* Scalable for multiple canteens
+* Mobile-friendly experience
 
 ---
 
-## 🔄 Real-Time Inventory Synchronization
+## 📲 Customer Ordering Workflow
 
-One of the core features of the system is live inventory synchronization.
-
-Whenever a canteen owner updates stock from the dashboard:
-
-- Mobile app updates instantly
-- Available quantities change automatically
-- Low-stock warnings appear when inventory falls below threshold
-- Sold-out items become unavailable for ordering
-- Customers always see the latest inventory status
-
-This prevents over-ordering and improves order accuracy.
-
----
-
-## 📲 Customer Ordering Flow
-
-1. Student logs into the mobile application
-2. Student browses menu items
-3. Student adds desired items to cart
-4. Student places the order
-5. System generates a unique QR Code
-6. Student reaches the canteen
-7. QR code is shown to canteen staff
-8. Staff scans/verifies the QR code
-9. Ordered items are displayed instantly
-10. Staff prepares and hands over the order
+1. Student logs into the application
+2. Student browses available menu items
+3. Student adds items to cart
+4. Student places an order
+5. System generates a unique QR code
+6. Student arrives at the canteen
+7. QR code is presented to staff
+8. Staff verifies the order
+9. Order details are displayed instantly
+10. Food is prepared and handed over
 11. Order is marked as completed
+
+---
+
+## 📦 Real-Time Inventory Synchronization
+
+The system continuously synchronizes inventory between the admin dashboard and customer application.
+
+Whenever stock levels are updated:
+
+* Menu availability updates instantly
+* Remaining quantities are reflected in real time
+* Low-stock notifications are generated
+* Sold-out items become unavailable for ordering
+* Customers always view accurate inventory data
+
+This ensures reliable ordering and prevents inventory conflicts.
 
 ---
 
 ## 🖼️ Screenshots
 
-### Customer Mobile App
+### 📱 Mobile Application
 
 #### Login Screen
-- Student authentication
-- Secure access to the platform
+
+* Secure user authentication
+* Student account access
 
 #### Home Dashboard
-- Browse menu items
-- View featured products
-- Add items to cart
-- Place food orders
 
-### Admin Dashboard
+* Browse available food items
+* Add products to cart
+* Place orders instantly
 
-#### Inventory Management
-- Manage menu items
-- Update stock levels
-- Mark items as sold out
-- Monitor low-stock items
-- View order information
+#### QR Order Screen
+
+* Unique order QR code generation
+* Quick pickup verification
 
 ---
 
-## 🛠️ Tech Stack
+### 🏪 Admin Dashboard
+
+#### Inventory Management
+
+* Manage food items
+* Update stock quantities
+* Monitor availability
+
+#### Order Management
+
+* View incoming orders
+* Verify customer QR codes
+* Complete food orders
+
+#### Analytics & Monitoring
+
+* Track operational performance
+* Monitor inventory usage
+* Review order activity
+
+---
+
+## 🛠️ Technology Stack
 
 ### Frontend
-- Flutter
+
+* Flutter
 
 ### Backend
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Cloud Functions
+
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Cloud Functions
 
 ### State Management
-- Provider / Riverpod
+
+* Provider
+* Riverpod
 
 ### Additional Services
-- QR Code Generation
-- Real-Time Database Synchronization
+
+* QR Code Generation
+* Real-Time Database Synchronization
+* Firebase Storage
 
 ---
 
 ## 🎯 Problem Solved
 
-Traditional canteens often suffer from:
+Traditional canteens often face:
 
-- Long waiting queues
-- Manual order handling
-- Inventory mismanagement
-- Customer frustration during peak hours
+* Long waiting lines
+* Manual order processing
+* Inventory management challenges
+* Delayed service during peak hours
 
-This system solves these issues by enabling:
+The Smart Canteen Management System addresses these issues through:
 
-- Pre-ordering
-- Faster pickups
-- Real-time stock tracking
-- Automated order verification
-- Better inventory control
+* Mobile pre-ordering
+* Faster order collection
+* QR-based verification
+* Real-time inventory tracking
+* Automated order management
+
+---
+
+## 🚀 Future Enhancements
+
+* Online payment integration
+* Order scheduling
+* Push notifications
+* Advanced sales analytics
+* Multi-canteen support
+* Built-in QR scanner
+* Role-based administration
+* Loyalty and rewards system
 
 ---
 
-## 🚀 Future Improvements
+<div align="center">
 
-- Online payments
-- Order scheduling
-- Push notifications
-- Sales reports and analytics
-- Multi-canteen support
-- QR scanner integration
-- Admin role management
+## 👨‍💻 DEVELOPED BY
 
----
-  DEVELOPED BY               
- GAUTHAM JAYESH               
+# 🚀 GAUTHAM JAYESH 🚀
+
+**Expo • Supabase • Full Stack Development • Mobile Applications**
+
+</div>
+             
