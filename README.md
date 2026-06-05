@@ -206,7 +206,7 @@ The Smart Canteen Management System addresses these issues through:
 
 # 🚀 GAUTHAM JAYESH 🚀
 
-**Expo • Supabase • Full Stack Development • Mobile Applications**
+**Expo • Supabase • Nextjs • Full Stack Development • Mobile Applications**
 
 </div>
              
