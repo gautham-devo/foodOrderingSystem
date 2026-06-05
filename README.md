@@ -149,9 +149,5 @@ This system solves these issues by enabling:
 - Admin role management
 
 ---
-
-## 👨‍💻 Developed By
-
-**Gautham Jayesh**
-
-A smart solution designed to modernize campus and workplace canteen operations through real-time ordering and inventory management.
+  DEVELOPED BY               
+ GAUTHAM JAYESH               
